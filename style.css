@@ -1,0 +1,78 @@
+body {
+	font-family: OCR A Std, monospace;
+}
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	border-bottom: 3px solid #b7b7b7;
+	
+}
+
+p {
+	font-size: 13px;
+}
+.cursor {
+
+	cursor: url("images/hammer.gif"), auto !important;
+}
+.wrapper {
+	background: #d6ac95;
+	width: 800px;
+	margin: 50px auto;
+}
+
+#game {
+	background: #c4a162;
+	height: 600px;
+	width: 800px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	border: 15px outset #3b5a1d;
+}
+.mole,
+.mole-dead {
+	width: 125px;
+	height: 88px;
+	background: url('images/molee.png') no-repeat;
+	position: absolute;
+	display: block;
+	z-index: 10;
+}
+
+.mole-dead {
+	background: url('images/molee-dead.png') no-repeat;
+}
+
+.scoreboard {
+	width: 200px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: #C2B690;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: OCR A Std, monospace;
+}
+.startScreen {
+	height: 100%;
+	width: 100%;
+	background: url('images/startScreen.jpg');
+	text-indent: -9999px;
+	z-index: 20;
+}
+.endScreen {
+	position: absolute;
+	top: 266px;
+	left: 246px;
+	height: 68px;
+	width: 308px;
+	background: url('images/endScreen.jpg');
+	text-indent: -9999px;
+
+	
+}
